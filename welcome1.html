@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome, Preeti!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 10px 0;
+        }
+
+        .greeting {
+            font-size: 24px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .decorative-border {
+            width: 100%;
+            height: 30px;
+            border-bottom: 1px solid #4CAF50;
+            background: linear-gradient(to right, #4CAF50, transparent);
+            margin-bottom: 50px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #4CAF50;
+            padding: 10px;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome, Preeti!</h1>
+    </header>
+    <div class="decorative-border"></div>
+    <div class="greeting">
+        <p>Hello Preeti,</p>
+        <p>Welcome to our website! We are thrilled to have you as our guest.</p>
+        <p>please click on this button to login to your instagram account </p>
+        <p>please login with your instagram account to access furthermore details</p>
+        <div class="button-container">
+            <button class="button" onclick="redirectToPreetiPage()">Click Here, Preeti</button>
+        </div>
+        <p>please click here to make a list of the items you wish to have you will be provided with one item randomly to your approved address thank you </p>
+        <div class="button-container">
+            <button class="button" onclick="redirectToPreetiWishlistPage()">Preeti's Wishlist</button>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Designed with ❤️ by Sumit</p>
+    </div>
+
+    <script>
+        function redirectToPreetiPage() {
+            window.location.href = "https://www.example.com/preeti-page"; // Replace this URL with the actual URL of Preeti's page.
+        }
+
+        function redirectToPreetiWishlistPage() {
+            window.location.href = "https://www.example.com/preeti-wishlist"; // Replace this URL with the actual URL of Preeti's wishlist page.
+        }
+    </script>
+</body>
+</html>
